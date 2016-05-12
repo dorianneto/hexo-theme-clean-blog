@@ -1,24 +1,30 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
+  Sobre: sobre
+  Newsletter: http://eepurl.com/bpmluL
   Github:
-    url: https://github.com/klugjo/hexo-theme-clean-blog
+    url: https://github.com/dorianneto
     icon: github
+  Twitter:
+    url: https://twitter.com/doriansneto
+    icon: twitter
+  Linkedin:
+    url: https://www.linkedin.com/in/dorianneto
+    icon: linkedin
 
 # Title on top left of menu. Leave empty to use main blog title
-menu_title: Configurable Title
+menu_title: home
 
 # URL of the Home page image
 index_cover: http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg
 
 # Default post title
-default_post_title: Untitled
+default_post_title: Sem título
 
 # Comments. Choose one by filling up the information
 comments:
   # Disqus comments
-  disqus_shortname:
+  disqus_shortname: dorianneto
   # Facebook comments
   facebook:
     appid:
@@ -26,14 +32,14 @@ comments:
     comment_colorscheme: light
 
 # Google Analytics Tracking ID
-google_analytics:
+google_analytics: UA-58753308-1
 
 # Addthis ID
-addthis:
+addthis: ra-54c1374b3b5ec2f9
 
 # Social Accounts
-twitter_url:
-facebook_url:
+twitter_url: https://twitter.com/doriansneto
+facebook_url: https://www.facebook.com/doriansampaioneto
 github_url: https://github.com/klugjo/hexo-theme-clean-blog
-linkedin_url:
-mailto:
+linkedin_url: https://www.linkedin.com/in/dorianneto
+mailto: doriansampaioneto@gmail.com
