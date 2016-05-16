@@ -16,7 +16,7 @@ menu:
 menu_title: home
 
 # URL of the Home page image
-index_cover: http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg
+index_cover: /assets/img/bg-cover.jpg
 
 # Default post title
 default_post_title: Sem título
@@ -40,6 +40,6 @@ addthis: ra-54c1374b3b5ec2f9
 # Social Accounts
 twitter_url: https://twitter.com/doriansneto
 facebook_url: https://www.facebook.com/doriansampaioneto
-github_url: https://github.com/klugjo/hexo-theme-clean-blog
+github_url: https://github.com/dorianneto
 linkedin_url: https://www.linkedin.com/in/dorianneto
 mailto: doriansampaioneto@gmail.com
