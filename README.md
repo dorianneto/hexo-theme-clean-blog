@@ -167,6 +167,15 @@ share_cover: /assets/contact-bg.jpg
 ---
 ```
 
+### Hide date on Posts/Pages
+
+You can hide the date on the specific post/page:
+
+```
+show_date: false
+---
+```
+
 ### Post's Excerpt
 
 This theme does not support traditional excerpts. To show excerpts on the index page, use `subtitle` in the front-matter:
