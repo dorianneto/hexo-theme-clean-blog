@@ -2,6 +2,7 @@
 menu:
   Sobre: sobre
   Palestras: palestras
+  Projetos: projetos
   Github:
     url: https://github.com/dorianneto
     icon: github
