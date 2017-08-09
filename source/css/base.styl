@@ -343,3 +343,54 @@ img::-moz-selection
 
 body
   webkit-tap-highlight-color brand-primary
+
+.search-form
+  margin-top 40px
+  background: #fff
+  border 1px solid #ddd
+  padding: 5px 15px
+
+.search-form-input
+  border: none
+  width: 100%
+  outline: none
+  &::-webkit-search-results-decoration
+  &::-webkit-search-cancel-button
+    -webkit-appearance: none
+
+.search-form-submit
+  position: absolute
+  display none
+
+.anchor-top
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  bottom: 70px;
+  right: 10px;
+  background: rgba(64, 64, 64, 0.7);
+  padding: 10px 15px;
+  text-decoration: none;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+  i
+    color: #fff;
+    margin: 0;
+    position: relative;
+    top: 0;
+    font-size: 20px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  &:hover
+    i
+      top: -3px;
