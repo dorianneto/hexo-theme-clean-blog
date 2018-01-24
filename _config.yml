@@ -38,6 +38,9 @@ google_analytics: UA-58753308-1
 # Addthis ID
 addthis: ra-54c1374b3b5ec2f9
 
+# OneSignal ID
+onesignal: 549ca0b4-bdfa-499f-a3b6-c4b809c8da0c
+
 # Social Accounts
 twitter_url: https://twitter.com/doriansneto
 facebook_url: https://www.facebook.com/doriansampaioneto
