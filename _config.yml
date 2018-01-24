@@ -41,6 +41,9 @@ addthis: ra-54c1374b3b5ec2f9
 # set your own favicon
 favicon:
 
+# OneSignal ID
+onesignal: 549ca0b4-bdfa-499f-a3b6-c4b809c8da0c
+
 # Social Accounts
 twitter_url: https://twitter.com/doriansneto
 twitter_handle:
