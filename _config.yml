@@ -12,6 +12,9 @@ menu:
   Linkedin:
     url: https://www.linkedin.com/in/dorianneto
     icon: linkedin
+  Feed:
+    url: http://feeds.feedburner.com/dorianneto
+    icon: rss
 
 # Title on top left of menu. Leave empty to use main blog title
 menu_title: home
