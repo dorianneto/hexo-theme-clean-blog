@@ -16,13 +16,13 @@ background-cover()
   background-cover()
 
 serif()
-  font-family 'Lora', 'Times New Roman', serif
+  font-family 'Merriweather', 'Times New Roman', serif
 
 .serif
   serif()
 
 sans-serif()
-  font-family 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+  font-family 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif
 
 .sans-serif
   sans-serif()
@@ -35,3 +35,65 @@ no-cover()
 
 .no-cover
   no-cover()
+
+@-webkit-keyframes rotateWord
+  0%
+    opacity: 0
+  2%
+    opacity: 0
+    -webkit-transform: translateY(-30px)
+  5%
+    opacity: 1
+    -webkit-transform: translateY(0px)
+  17%
+    opacity: 1
+    -webkit-transform: translateY(0px)
+  20%
+    opacity: 0
+    -webkit-transform: translateY(30px)
+  80%
+    opacity: 0
+  100%
+    opacity: 0
+@-ms-keyframes rotateWord
+  0%
+    opacity: 0
+  2%
+    opacity: 0
+    -ms-transform: translateY(-30px)
+  5%
+    opacity: 1
+    -ms-transform: translateY(0px)
+  17%
+    opacity: 1
+    -ms-transform: translateY(0px)
+  20%
+    opacity: 0
+    -ms-transform: translateY(30px)
+  80%
+    opacity: 0
+  100%
+    opacity: 0
+@keyframes rotateWord
+  0%
+    opacity: 0
+  2%
+    opacity: 0
+    -webkit-transform: translateY(-30px)
+    transform: translateY(-30px)
+  5%
+    opacity: 1
+    -webkit-transform: translateY(0px)
+    transform: translateY(0px)
+  17%
+    opacity: 1
+    -webkit-transform: translateY(0px)
+    transform: translateY(0px)
+  20%
+    opacity: 0
+    -webkit-transform: translateY(30px)
+    transform: translateY(30px)
+  80%
+    opacity: 0
+  100%
+    opacity: 0
